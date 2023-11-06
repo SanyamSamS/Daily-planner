@@ -39,7 +39,6 @@ $(function () {
         if (storedEvent) {
           $(this).find('.description').val(storedEvent)
         }
-
         });
       }
       
