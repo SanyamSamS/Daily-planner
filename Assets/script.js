@@ -43,12 +43,11 @@ $(function () {
         });
       }
       
+      // Update time block for past, future and present
       updateTimeBlocks();
 
-
-  //
- 
-  //
-  // TODO: Add code to display the current date in the header of the page.
+      // Display current date in the header
+      var currentDate = dayjs().format('dddd, MMM D, YYYY');
+      $('#currentDay').text(currentDate);
 });
 
