@@ -8,3 +8,4 @@ A daily planner that allows users to schedule their events for the work day. Use
 ![image](https://github.com/SanyamSamS/Daily-planner/assets/144437895/aee5f9c3-9db0-4d4c-a1d8-6a3e8754b174)
 
 ## Deployed application 
+https://sanyamsams.github.io/Daily-planner/
