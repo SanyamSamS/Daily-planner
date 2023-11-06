@@ -16,7 +16,7 @@ $(function () {
     // Function to add appropriate past, present, and future class to time blocks
     function updateTimeBlocks() {
       // Get current time
-      var currentHour = dayjs().hour(); 
+      var currentHour = dayjs().format('H'); 
 
       $('.time-block').each(function () {
         var timeBlockId = $(this).attr("id");
@@ -49,5 +49,8 @@ $(function () {
       // Display current date in the header
       var currentDate = dayjs().format('dddd, MMM D, YYYY');
       $('#currentDay').text(currentDate);
+
+      // Update page every hour 
+      setInterval(updateTimeBlocks, 3600000);
 });
 
